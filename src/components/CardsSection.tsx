@@ -28,14 +28,16 @@ export const CardsSection = () => {
     },
   ];
   return (
-    <section className="cards-section">
-      {cards.map((card, i) => (
-        <div className="card" key={i}>
-          <img src={card.icon} alt={card.title} />
-          <h3>{card.title}</h3>
-          <p>{card.description}</p>
-        </div>
-      ))}
+    <section>
+      <div className="cards-section">
+        {cards.map((card, i) => (
+          <div className="card" key={i}>
+            <img src={card.icon} alt={card.title} />
+            <h3>{card.title}</h3>
+            <p>{card.description}</p>
+          </div>
+        ))}
+      </div>
 
       <img className="Elipse1" src={Elipse1} alt="Elipse1" />
       <img className="Elipse2" src={Elipse2} alt="Elipse2" />

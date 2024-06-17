@@ -2,15 +2,18 @@ import { CardsSection } from './components/CardsSection';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { TextHeader } from './components/Text-header';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
+    <>
       <TextHeader />
       <Header />
-      <Hero />
-      <CardsSection />
-    </div>
+      <main>
+        <Hero />
+        <CardsSection />
+      </main>
+    </>
   );
 }
 

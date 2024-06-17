@@ -7,12 +7,19 @@ header {
   height: 80px;
   position: relative;
 
-  nav {
+  .menu-nav {
+    color: var(--primary-color);
+    &:hover {
+      color: var(--secondary-color);
+    }
+  }
+  .nav-mobile {
     position: absolute;
     top: 80px;
     left: 0;
     width: 100%;
     padding: 30px;
+    z-index: 100;
     background-color: var(--primary-color);
 
     ul {
@@ -22,6 +29,53 @@ header {
 
       a {
         color: var(--white-color);
+        display: flex;
+        align-items: center;
+
+        &::after {
+          content: '';
+          display: block;
+          width: 0;
+          height: 3px;
+          background-color: var(--secondary-color);
+          margin-left: 10px;
+          transition: width 0.2s;
+        }
+
+        &:hover {
+          &::after {
+            width: 10%;
+          }
+        }
+      }
+    }
+  }
+
+  .closed {
+    display: none;
+  }
+
+  .open {
+    display: block;
+  }
+
+  .nav-desktop {
+    margin-top: 10px;
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+    a {
+      color: var(--white-color);
+      font-size: 1.2rem;
+      font-weight: 500;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        color: var(--secondary-color);
+        border-bottom: 4px solid var(--secondary-color);
       }
     }
   }
