@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const TextHeader = () => {
   return (
     <div className="header-text">

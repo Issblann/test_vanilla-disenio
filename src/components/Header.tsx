@@ -1,6 +1,5 @@
-import { ReactNode, useState } from 'react';
+import { useState } from 'react';
 import logoHeader from '../assets/logo_header.svg';
-import MenuNav from '../assets/menu-nav.svg';
 
 type Link = {
   title: string;
