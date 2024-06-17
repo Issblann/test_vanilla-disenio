@@ -1,0 +1,28 @@
+header {
+  width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 35px;
+  height: 80px;
+  position: relative;
+
+  nav {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: var(--primary-color);
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      a {
+        color: var(--white-color);
+      }
+    }
+  }
+}
