@@ -1,4 +1,13 @@
-# React + TypeScript + Vite
+# VANILLA DISEÑO TEST
+
+
+GALLERY
+
+![MacBook Pro-1718657799282](https://github.com/Issblann/test_vanilla-disenio/assets/109175830/14f6fd06-8f84-455e-9c55-74a3a8d62c3e)
+![iPad-1718657776162](https://github.com/Issblann/test_vanilla-disenio/assets/109175830/794615b3-c23f-4649-93f3-f5cb62e02cad)
+![iPhone 12 Pro-1718657774145](https://github.com/Issblann/test_vanilla-disenio/assets/109175830/8f0683b5-f760-4f21-8bbd-cdaa14916f6d)
+
+Uso de react, bootstrap y SASS.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
